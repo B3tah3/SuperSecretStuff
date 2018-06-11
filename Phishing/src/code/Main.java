@@ -8,7 +8,6 @@ public class Main {
 	
 	public static void main(String[] args) throws AWTException 
 	{
-		System.out.println("möö");
 		Frame f = new Frame();
 		while(true)
 		{
@@ -22,9 +21,7 @@ public class Main {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			f.repaint();
-			
+			f.repaint();		
 		}
 	}
-
 }
