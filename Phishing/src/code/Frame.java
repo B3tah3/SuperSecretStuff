@@ -39,7 +39,7 @@ public class Frame extends JFrame
 		if(JOptionPane.showInputDialog("IMAGE: ").equals("1"))img = false;
 		i = new Interface();
 		
-		imageFile  = new File("/home/kfg/Home_auf_Server/img1.png"); ///media/kfg/74D8-1BEC/
+		imageFile  = new File("/home/kfg/Home_auf_Server/img1.png");
 		imageFile2 = new File("/home/kfg/Home_auf_Server/img2.png");
 		wmFile = new File("/home/kfg/Home_auf_Server/logo.png");
 		try {
